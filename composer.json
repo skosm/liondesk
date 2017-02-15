@@ -1,0 +1,24 @@
+{
+  "name": "skosm/liondesk",
+  "description": "LionDesk API client",
+  "license": "MIT",
+  "keywords": ["liondesk", "api", "php", "client"],
+  "authors": [
+    {
+      "name": "Serge Kosmatinski",
+      "email": "s.kosmatinski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "php-curl-class/php-curl-class": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skosm\\LionDesk\\" : "src"
+    }
+  }
+}
