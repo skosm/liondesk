@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1487199059">
+  <project timestamp="1487199059">
+    <package name="Skosm\LionDesk">
+      <file name="/home/serge/work/sites/agentfire2.doc/agentfire/web/liondesk/liondesk/src/LionDesk/Exception.php">
+        <class name="Exception" namespace="Skosm\LionDesk" fullPackage="LionDesk" package="LionDesk">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="12" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/serge/work/sites/agentfire2.doc/agentfire/web/liondesk/liondesk/src/LionDesk/LionDesk.php">
+        <class name="LionDesk" namespace="Skosm\LionDesk" fullPackage="LionDesk" package="LionDesk">
+          <metrics complexity="27" methods="24" coveredmethods="22" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="64" elements="94" coveredelements="86"/>
+        </class>
+        <line num="57" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="63" type="stmt" count="14"/>
+        <line num="64" type="stmt" count="14"/>
+        <line num="65" type="stmt" count="14"/>
+        <line num="66" type="stmt" count="14"/>
+        <line num="67" type="stmt" count="14"/>
+        <line num="72" type="method" name="getEndPoint" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="74" type="stmt" count="7"/>
+        <line num="82" type="method" name="setEndPoint" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="84" type="stmt" count="14"/>
+        <line num="86" type="stmt" count="14"/>
+        <line num="92" type="method" name="getApiKey" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="94" type="stmt" count="7"/>
+        <line num="102" type="method" name="setApiKey" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="104" type="stmt" count="14"/>
+        <line num="106" type="stmt" count="14"/>
+        <line num="112" type="method" name="getUserKey" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="114" type="stmt" count="7"/>
+        <line num="122" type="method" name="setUserKey" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="124" type="stmt" count="14"/>
+        <line num="126" type="stmt" count="14"/>
+        <line num="132" type="method" name="getData" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="134" type="stmt" count="6"/>
+        <line num="142" type="method" name="setData" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="144" type="stmt" count="5"/>
+        <line num="146" type="stmt" count="5"/>
+        <line num="152" type="method" name="getResponse" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="154" type="stmt" count="6"/>
+        <line num="162" type="method" name="setResponse" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="164" type="stmt" count="7"/>
+        <line num="166" type="stmt" count="7"/>
+        <line num="172" type="method" name="getRequest" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="174" type="stmt" count="7"/>
+        <line num="182" type="method" name="setRequest" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="184" type="stmt" count="14"/>
+        <line num="186" type="stmt" count="14"/>
+        <line num="192" type="method" name="getTimeOut" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="194" type="stmt" count="6"/>
+        <line num="202" type="method" name="setTimeOut" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="204" type="stmt" count="1"/>
+        <line num="206" type="stmt" count="1"/>
+        <line num="216" type="method" name="action" visibility="protected" complexity="1" crap="1" count="4"/>
+        <line num="218" type="stmt" count="4"/>
+        <line num="219" type="stmt" count="4"/>
+        <line num="222" type="stmt" count="4"/>
+        <line num="232" type="method" name="payload" visibility="protected" complexity="1" crap="1" count="3"/>
+        <line num="234" type="stmt" count="3"/>
+        <line num="235" type="stmt" count="3"/>
+        <line num="239" type="stmt" count="3"/>
+        <line num="249" type="method" name="run" visibility="protected" complexity="3" crap="3.02" count="5"/>
+        <line num="251" type="stmt" count="5"/>
+        <line num="253" type="stmt" count="5"/>
+        <line num="254" type="stmt" count="5"/>
+        <line num="255" type="stmt" count="5"/>
+        <line num="256" type="stmt" count="5"/>
+        <line num="257" type="stmt" count="5"/>
+        <line num="258" type="stmt" count="5"/>
+        <line num="260" type="stmt" count="0"/>
+        <line num="261" type="stmt" count="0"/>
+        <line num="263" type="stmt" count="5"/>
+        <line num="264" type="stmt" count="5"/>
+        <line num="265" type="stmt" count="1"/>
+        <line num="266" type="stmt" count="1"/>
+        <line num="267" type="stmt" count="1"/>
+        <line num="271" type="stmt" count="4"/>
+        <line num="282" type="method" name="getValue" visibility="protected" complexity="2" crap="2" count="6"/>
+        <line num="284" type="stmt" count="6"/>
+        <line num="285" type="stmt" count="5"/>
+        <line num="287" type="stmt" count="1"/>
+        <line num="288" type="stmt" count="1"/>
+        <line num="303" type="method" name="anonymous function" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="306" type="stmt" count="1"/>
+        <line num="307" type="stmt" count="1"/>
+        <line num="308" type="stmt" count="1"/>
+        <line num="309" type="stmt" count="1"/>
+        <line num="319" type="method" name="getUsers" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="322" type="stmt" count="1"/>
+        <line num="323" type="stmt" count="1"/>
+        <line num="324" type="stmt" count="1"/>
+        <line num="335" type="method" name="newSubmission" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="338" type="stmt" count="1"/>
+        <line num="339" type="stmt" count="1"/>
+        <line num="340" type="stmt" count="1"/>
+        <line num="341" type="stmt" count="1"/>
+        <line num="352" type="method" name="newComment" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="355" type="stmt" count="0"/>
+        <line num="356" type="stmt" count="0"/>
+        <line num="357" type="stmt" count="0"/>
+        <line num="358" type="stmt" count="0"/>
+        <line num="369" type="method" name="newActivity" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="372" type="stmt" count="1"/>
+        <line num="373" type="stmt" count="1"/>
+        <line num="374" type="stmt" count="1"/>
+        <line num="375" type="stmt" count="1"/>
+        <metrics loc="377" ncloc="219" classes="1" methods="24" coveredmethods="22" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="64" elements="94" coveredelements="86"/>
+      </file>
+    </package>
+    <file name="/home/serge/work/sites/agentfire2.doc/agentfire/web/liondesk/liondesk/src/LionDesk/LionDeskInterface.php">
+      <metrics loc="22" ncloc="18" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="Skosm\LionDesk\Request">
+      <file name="/home/serge/work/sites/agentfire2.doc/agentfire/web/liondesk/liondesk/src/LionDesk/Request/Exception.php">
+        <class name="Exception" namespace="Skosm\LionDesk\Request" fullPackage="LionDesk" package="LionDesk">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="12" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/serge/work/sites/agentfire2.doc/agentfire/web/liondesk/liondesk/src/LionDesk/Request/Request.php">
+        <class name="Request" namespace="Skosm\LionDesk\Request" fullPackage="LionDesk" package="LionDesk">
+          <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="10" coveredelements="10"/>
+        </class>
+        <line num="26" type="method" name="exec" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <metrics loc="46" ncloc="29" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="10" coveredelements="10"/>
+      </file>
+    </package>
+    <metrics files="5" loc="469" ncloc="282" classes="2" methods="25" coveredmethods="23" conditionals="0" coveredconditionals="0" statements="79" coveredstatements="73" elements="104" coveredelements="96"/>
+  </project>
+</coverage>

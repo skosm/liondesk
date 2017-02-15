@@ -10,9 +10,18 @@
          processIsolation="false"
          stopOnFailure="false"
          syntaxCheck="false">
+
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+    </filter>
+
     <testsuites>
         <testsuite name="LionDesk Test Suite">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
+
 </phpunit>
