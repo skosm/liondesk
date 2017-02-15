@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Skosm\\LionDesk\\" : "src"
+      "Skosm\\LionDesk\\" : "src/LionDesk"
     }
   }
 }
