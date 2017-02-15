@@ -19,7 +19,7 @@ script:
   - phpunit --coverage-clover build/logs/clover.xml
 
 after_success:
-- travis_retry php coveralls.phar -v
+  - travis_retry php coveralls.phar -v
 
 branches:
   only: master
